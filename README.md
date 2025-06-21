@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from simple_email import send_verification_email_simple
 
 # Load environment variables
-load_dotenv()
+load_dotenv() 
 
 app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY', 'bulgarians-world-secret-key')
